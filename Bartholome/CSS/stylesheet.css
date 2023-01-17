@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section {
+    position: relative;
+    min-height: 400px;
+    padding: 100px 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    background-image: linear-gradient(#8a87f4, #ffffff);
+}
+
+.two {
+    background-color: #18191c;
+}
+
+.three {
+    background-image: linear-gradient(#31eb6f, #8400ff);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 0rem calc((100vw - 1300) / 2);
+}
+
+.divider-top {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 181px;
+}
+
+.divider-top .shape-fill {
+    fill: #18191C;
+}
+
+.divider-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.divider-bottom .shape-fill {
+    fill: #18191C;
+}
+
+
+.container-nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #18191C;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 5px 0;
+    height: 80px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav a {
+    color: #e78bf5;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    color: #738ef5;
+
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #738ef5;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+
+}
+
+.heading {
+    margin-top: 5px;
+    font-size: 18px;
+}
+.heading2 {
+    margin-top: 180px;
+    font-size: 45px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+.image {
+    margin-top: 35px;
+    margin-right: -150px;
+    width: 500px;
+    height: 500px;
+    bottom: -15px;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 300px;
+    height: 320px;
+    margin: 15px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+.space {
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+
+.border {
+    margin: 0 15px;
+    border: 5px solid whitesmoke;
+
+}
+
+.box4 {
+    width: 300px;
+    height: 320px;
+    margin: 15px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.Roblox{
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.Roblox:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.Genshin {
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.Genshin:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.Honkai {
+    position: absolute;
+    left: 250px;
+    top: 255px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.Honkai:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.Osu {
+    position: absolute;
+    right: 270px;
+    top: 195px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+} 
+
+.Osu:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.Paladins {
+    position: absolute;
+    right: 20px;
+    top: 130px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.Paladins:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.Warframe {
+    position: absolute;
+    right: 20px;
+    top: 300px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.Warframe:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.ToF {
+    position: absolute;
+    left: 20px;
+    top: 300px;
+    transition: transform .5s;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.ToF:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+
+.content-picture:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.border2 {
+    padding-top: 0px;
+    margin: 20px 500px;
+    border: 5px solid whitesmoke;
+}
+
+.space2 {
+    letter-spacing: 1px;
+    line-height: 38px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    border: 10px double cyan;
+    border-radius: 50px;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+ul {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+li {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name {
+    text-align: center;    
+}
+#align {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+}

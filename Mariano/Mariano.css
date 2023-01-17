@@ -1,0 +1,91 @@
+#textgradient1{
+    border: 100px;
+    background-color: purple;
+                
+}
+ body{
+    background: rgb(255, 255, 255);
+    padding-bottom: 5000px;
+             
+}
+h1 {
+    position: ;
+    top: 100px;
+    left: 18%;
+    text-align: justify;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, Orange, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#Box1{
+    background:linear-gradient(purple, violet) ;
+    width: 500px;
+    height: 500px;  
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    box-shadow: 15px 15px 15px rgb(118, 118, 118);
+             
+}
+#Box2{
+    background:linear-gradient( blue, black) ;
+    width: 100%;
+    height: 300px;
+    padding: 0%;
+    border-radius: 0%;
+             
+}
+#Box3{
+    background:linear-gradient( orange, pink) ;
+    width: 500px;
+    height: 500px;  
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    box-shadow: 15px 15px 15px rgb(118, 118, 118);    
+}
+#borderbox{
+    background:linear-gradient(rgb(211, 107, 107), rgb(75, 70, 70)) ;
+    width: 500px;
+    height: 500px;  
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 1100px;
+    left: 90px;
+    box-shadow: 15px 15px 15px rgb(118, 118, 118);    
+}
+#box5th{
+    background:linear-gradient( red, blue) ;
+    width: 500px;
+    height: 500px;  
+    padding: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 1100px;
+    left: 900px;
+    box-shadow: 15px 15px 15px rgb(118, 118, 118);    
+}
+#text1{
+    font-size: 50px;
+    font-style: 'Times New Roman';
+    background-color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#text2{
+    font-size: 30px;
+    font-style: 'Times New Roman';
+    background-color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

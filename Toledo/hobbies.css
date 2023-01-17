@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+h1{
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Navbar {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #8c00b7e1;
+  border: solid rgb(16, 0, 87);
+    border-radius: 5px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.Design {
+  float: left;
+  padding: 10px 5px;
+  color:rgb(255, 159, 247);
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(245, 144, 254);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+    color: rgb(245, 144, 254);
+}
+
+nav a::before {
+  content: ' ';
+  display: block;
+  height: 2px;
+  background-color:rgb(245, 144, 254);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+p {
+    color: #ffffff;
+}
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  p.three {
+    border-style: dotted;
+    border-width: 2px;
+  }
+  
+  p.four {
+    border-style: dotted;
+    border-width: thick;
+  }
+  
+  p.five {
+    border-style: double;
+    border-width: 15px;
+  }
+  
+  p.six {
+    border-style: double;
+    border-width: thick;
+  }
+  .Firstletter::first-letter {
+    font-size: 200%;
+    color: #ffffff;
+     }  
+     .div1 {
+        border: 10px double rgb(251, 251, 251);
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
+      h2{
+        color: white;
+      }
+
+
+      
+    .center {
+      
+        margin: 0 auto;
+        
+      }
+  
+      .awesome {
+        
+        font-family: futura;
+        font-style: italic;
+        
+        width:100%;
+        
+        margin: 0 auto;
+        text-align: center;
+        
+        color:#313131;
+        font-size:45px;
+        font-weight: bold;
+        position: absolute;
+        animation:colorchange 20s infinite alternate;
+        
+    
+      }
+
+      @keyframes colorchange {
+        0% {
+          
+          color: blue;
+        }
+        
+        10% {
+          
+          color: #8e44ad;
+        }
+        
+        20% {
+          
+          color: #1abc9c;
+        }
+        
+        30% {
+          
+          color: #d35400;
+        }
+        
+        40% {
+          
+          color: blue;
+        }
+        
+        50% {
+          
+          color: #34495e;
+        }
+        
+        60% {
+          
+          color: blue;
+        }
+        
+        70% {
+          
+          color: #2980b9;
+        }
+        80% {
+       
+          color: #f1c40f;
+        }
+        
+        90% {
+       
+          color: #2980b9;
+        }
+        
+        100% {
+          
+          color: pink;
+        }
+      }
